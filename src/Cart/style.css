@@ -1,0 +1,18 @@
+
+.navbar {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+    padding-right: 20px;
+}
+
+.max-width {
+    max-width: 1300px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+/* input[type=text], select {
+    margin-left: 20px;
+} */
