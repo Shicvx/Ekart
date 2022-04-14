@@ -1,20 +1,29 @@
 .product_container {
     display: flex;
     padding-top: 40px;
+    align-items: center;
 }
 
 .left_column {
     width: 40%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 
 .right_column {
     width: 60%;
+    padding-left: 0.5em;
 }
 
 .right_column p {
     padding:0;
     margin:0;
+}
+
+.image_container {
+    display: flex;
+    justify-content: center;
 }
 
 
