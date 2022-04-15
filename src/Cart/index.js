@@ -12,7 +12,6 @@ const Cart = () => {
       </div>
       <div className="max-width">
         <MdSearch style={{ position: "absolute", padding: "11px" }} />
-        <span>
             <BsCamera
               style={{
                 position: "absolute",
@@ -22,6 +21,7 @@ const Cart = () => {
                 paddingLeft: "11px",
               }}
             />
+        <span>
           <input
             name="search"
             type="text"

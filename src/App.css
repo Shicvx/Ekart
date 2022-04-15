@@ -35,7 +35,12 @@
   border: 0;
   height: 50px;
   padding: 5px 20px;
-  border-bottom: solid gray;
+  border-bottom: 1px solid gray;
+  padding-left: 2em;
+}
+
+.App_form input:focus{
+  outline: none;
 }
 
 .Navbar_login {

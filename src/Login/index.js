@@ -16,11 +16,11 @@ const Login = () => {
           <div className="App_container">
             <form className="App_form">
               <div className="App_input_container">
-                <MdEmail />
+                <MdEmail style={{position: "absolute"}} />
                 <input name="email" placeholder="Email" />
               </div>
               <div className="App_input_container">
-                <MdLock />
+                <MdLock style={{position: "absolute"}} />
                 <input name="password" placeholder="Password" />
               </div>
               <div
