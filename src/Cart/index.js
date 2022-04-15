@@ -13,6 +13,15 @@ const Cart = () => {
       <div className="max-width">
         <MdSearch style={{ position: "absolute", padding: "11px" }} />
         <span>
+            <BsCamera
+              style={{
+                position: "absolute",
+                right: "20px",
+                borderLeft: "solid 1px gray",
+                margin: "11px",
+                paddingLeft: "11px",
+              }}
+            />
           <input
             name="search"
             type="text"
@@ -26,15 +35,6 @@ const Cart = () => {
             placeholder="Search"
           />
         </span>
-        <BsCamera
-          style={{
-            position: "absolute",
-            right: "20px",
-            borderLeft: "solid 1px gray",
-            margin: "11px",
-            paddingLeft: "11px",
-          }}
-        />
 
         <ProductList />
       </div>
